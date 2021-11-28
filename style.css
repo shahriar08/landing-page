@@ -1,11 +1,12 @@
 /* font-family: 'IBM Plex Sans', sans-serif;
 font-family: 'Inter', sans-serif; */
-
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
 .nav-text {
   font-size: 17px;
   font-weight: 500;
   color: #1c1c1c;
-  font-family: "IBM Plex Sans", sans-serif;
 }
 .nav-text:hover {
   color: #1c1c1c;
@@ -28,45 +29,105 @@ font-family: 'Inter', sans-serif; */
     height: 400px;
     width: 100%;
 } */
-
-.main-body-h2 {
-  font-family: "Inter", sans-serif;
-  font-size: 46px;
-  font-weight: 700;
+.banner {
+  background-image: url(/images/banner.png);
+  height: 50vh;
+  min-height: 500px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
-
-.main-body-p {
-  font-family: "IBM Plex Sans", sans-serif;
+.banner-subtitle{
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
+}
+.banner-title{
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 46px;
+}
+.banner-btn{
+  background-color: #224497;
+  color: white;
+  border: #061425;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.banner-btn2{
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+.main-body-h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+  
+}
+
+.main-body-p {
+  font-size: 1rem;
+  margin-top: 18px;
+  font-weight: 400;
+  text-align: justify;
 }
 
 .main-sec-btn {
   border: 2px solid #224497;
   border-radius: 6px;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 14px;
   background-color: white;
   color: #224497;
 }
-
+.card {
+  height: 515px;
+}
+.card-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 26px;
+}
+.card-icon {
+  color: #224497;
+}
+.duration {
+  line-height: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
 .footer {
   background-color: #061425;
   color: white;
-  padding: 150px;
+  padding-top: 150px;
 }
 .footer-head {
-  font-family: "IBM Plex Sans", sans-serif;
   text-decoration: none;
   color: #bbc9ed;
 }
 .footer-list {
-  font-family: "IBM Plex Sans", sans-serif;
   text-decoration: none;
   color: #bbc9ed;
   font-weight: 400;
   font-size: 14px;
-  line-height: 22px;
+  line-height: 40px;
+}
+.footer-list-address {
+  text-decoration: none;
+  color: #bbc9ed;
+  font-weight: 400;
+  font-size: 14px;
 }
 .footer-list:hover {
   color: white;
@@ -79,12 +140,12 @@ font-family: 'Inter', sans-serif; */
 
 .form {
   background-color: #061425;
-  padding-left: 110px;
+
 }
 .form-control {
   background-color: #061425;
   color: #bbc9ed;
-  width: 70%;
+  width: 100%;
 }
 .footer-sec-btn {
   background-color: #061425;
